@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0", 
+    "name": "Link Tracker",
+    "icon": "images.png",
+    "description": "A Chrome extension to save links accros the web",
+    "action":{
+        "default_popup": "index.html",
+        "default_icon": "images.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
